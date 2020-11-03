@@ -17,7 +17,13 @@
         ],
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "outDir": "build",
+        "rootDir": "./",
+        "baseUrl": "./",
+        "paths": {
+            "*": ["*", "build/*"]
+        }
     },
     "exclude": [
         "node_modules"

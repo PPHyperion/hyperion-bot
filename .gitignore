@@ -74,5 +74,4 @@ web_modules/
 
 ## generated files
 
-*.js
-*js.map
+build/*
