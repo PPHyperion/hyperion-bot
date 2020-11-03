@@ -1,0 +1,1 @@
+My first attempt to write a discord bot in TypeScript
