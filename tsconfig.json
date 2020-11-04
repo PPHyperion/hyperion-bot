@@ -3,29 +3,18 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "target": "es2016",
-        "lib": [
-            "es6",
-            "dom"
-        ],
+        "lib": ["es6", "dom"],
         "sourceMap": true,
-        "types": [
-            "node",
-            "reflect-metadata"
-        ],
-        "typeRoots": [
-            "./node_modules/@types"
-        ],
+        "types": ["node", "reflect-metadata"],
+        "typeRoots": ["./node_modules/@types"],
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "resolveJsonModule": true,
         "outDir": "build",
-        "rootDir": "./",
         "baseUrl": "./",
         "paths": {
             "*": ["*", "build/*"]
         }
     },
-    "exclude": [
-        "node_modules"
-    ]
+    "exclude": ["node_modules"]
 }
