@@ -1,5 +1,5 @@
 export const TYPES = {
-  Bot: Symbol("Bot"),
-  Client: Symbol("Client"),
-  Discord_Token: Symbol("Token"),
+    Bot: Symbol('Bot'),
+    Client: Symbol('Client'),
+    Discord_Token: Symbol('Token'),
 };

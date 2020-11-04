@@ -1,6 +1,6 @@
-import {Client, Message} from "discord.js"
-import {inject, injectable} from "inversify";
-import {TYPES} from "./types";
+import { Client, Message } from 'discord.js';
+import { inject, injectable } from 'inversify';
+import { TYPES } from './types';
 //import {CommandHandler} from "./services/commandHandler";
 
 @injectable()
@@ -14,7 +14,6 @@ export class Bot {
     }
 
     public listen(): Promise<string> {
-
         this.client.on('message', (message: Message) => {
             console.log('Message received! Contents: ', message.content);
         });
